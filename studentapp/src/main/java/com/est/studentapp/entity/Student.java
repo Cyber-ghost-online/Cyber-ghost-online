@@ -5,7 +5,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "students")
 public class Student {
-
+// this is student management system
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
