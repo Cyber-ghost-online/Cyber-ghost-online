@@ -1,0 +1,15 @@
+package com.est.studentapp;
+
+import ch.qos.logback.core.net.SyslogOutputStream;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.http.converter.json.GsonBuilderUtils;
+
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
+
+}
